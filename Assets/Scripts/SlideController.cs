@@ -65,6 +65,8 @@ public class SlideController : MonoBehaviour
 		{
 			return;
 		}
+
+		slides = newSlides;
 		
 		//Make sure there are no gaps in the slide numbers
 		int index = 1;
