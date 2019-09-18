@@ -8,11 +8,12 @@ The presentation slides can be viewed in the Unity project in this repository.
 
 ### Resources
 * [LWRP → Universal upgrade guide](https://docs.google.com/document/d/1Xd5bZa8pYZRHri-EnNkyhwrWEzSa15vtnpcg--xUCIs/edit)
-* [URP docs](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.0/manual/index.html)
+* [URP documentation](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.0/manual/index.html)
 * [Feature comparison table](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.0/manual/universalrp-builtin-feature-comparison.html)
-* [LWRP Custom Renderers Example repo](https://github.com/Unity-Technologies/LWRP-CustomRendererExamples)
-* [SRP GitHub repo](https://github.com/Unity-Technologies/ScriptableRenderPipeline/)
+* [LWRP Custom Renderers Example repository](https://github.com/Unity-Technologies/LWRP-CustomRendererExamples)
+* [SRP GitHub repository](https://github.com/Unity-Technologies/ScriptableRenderPipeline/)
 * [SRP batcher blog post](https://blogs.unity3d.com/2019/02/28/srp-batcher-speed-up-your-rendering/)
+* [Custom Render Pipeline tutorial series by Catlike Coding](https://catlikecoding.com/unity/tutorials/scriptable-render-pipeline/)
 
 ### My previous Unite talks
 * [UNITE Berlin’18 - Become a Speed Demon: Being faster at everything you do in Unity](https://www.youtube.com/watch?v=apct9_tsBdA)

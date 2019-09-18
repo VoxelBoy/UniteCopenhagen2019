@@ -50,8 +50,6 @@ public class SlideController : MonoBehaviour
 
 	private void GatherSlidesInScene()
 	{
-		slides = new List<Slide>();
-
 		var activeScene = SceneManager.GetActiveScene();
 		
 		if (Application.isPlaying == false && (activeScene.IsValid() == false || activeScene.isLoaded == false))
@@ -59,15 +57,18 @@ public class SlideController : MonoBehaviour
 			return;
 		}
 
-		var rootGOs = activeScene.GetRootGameObjects().ToList();
-		int i;
-		var slideGameObjects = rootGOs.FindAll(x => int.TryParse(x.name, out i) && x.GetComponent<Slide>() != null);
-		slides = slideGameObjects.ConvertAll(x => x.GetComponent<Slide>());
-		slides.Sort((x, y) => int.Parse(x.name).CompareTo(int.Parse(y.name)));
+		var newSlides = activeScene.GetRootGameObjects().ToList().FindAll(x => int.TryParse(x.name, out _))
+							.ConvertAll(go => go.GetComponent<Slide>());
+		newSlides.Sort((x, y) => int.Parse(x.name).CompareTo(int.Parse(y.name)));
+
+		if (slides.Count == newSlides.Count && slides.TrueForAll(slide => newSlides.Contains(slide)))
+		{
+			return;
+		}
 		
 		//Make sure there are no gaps in the slide numbers
 		int index = 1;
-		for (i = 0; i < slides.Count; i++)
+		for (int i = 0; i < slides.Count; i++)
 		{
 			int slideNameInt = int.Parse(slides[i].name);
 			if (slideNameInt != index)
@@ -79,7 +80,7 @@ public class SlideController : MonoBehaviour
 		}
 
 		//Make sure Slide Index gets clamped
-		SlideIndex = SlideIndex;
+		SlideIndex = slideIndex;
 	}
 
 	private void OnEnable()

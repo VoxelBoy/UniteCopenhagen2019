@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6219957
 RectTransform:
   m_ObjectHideFlags: 0
@@ -698,7 +698,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &37988433
 RectTransform:
   m_ObjectHideFlags: 0
@@ -809,13 +809,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 37988434}
-    characterCount: 40
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 7
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -1019,7 +1019,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &79925468
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1129,13 +1129,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 79925469}
-    characterCount: 54
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 10
-    wordCount: 11
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -1235,12 +1235,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106270893}
   m_CullTransparentMesh: 0
---- !u!1 &112072305 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde,
-    type: 3}
-  m_PrefabInstance: {fileID: 2145140562}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &165902596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,7 +1533,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &171708765
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1707,7 +1701,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &197721844
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1817,13 +1811,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 197721845}
-    characterCount: 27
+    characterCount: 0
     spriteCount: 0
     spaceCount: 0
-    wordCount: 1
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -2216,6 +2210,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2447,14 +2449,6 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 23
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2504,7 +2498,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &235207826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2826,7 +2820,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &260740051
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3003,13 +2997,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 260740054}
-    characterCount: 20
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 4
-    wordCount: 5
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -3042,6 +3036,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -3271,14 +3273,6 @@ PrefabInstance:
       propertyPath: m_textInfo.lineCount
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3422,7 +3416,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &292151577
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3532,13 +3526,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 292151578}
-    characterCount: 15
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -3582,7 +3576,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &309914755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3731,6 +3725,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -3964,14 +3966,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.lineCount
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -4678,7 +4672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &351516539
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4788,13 +4782,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 351516540}
-    characterCount: 5
+    characterCount: 0
     spriteCount: 0
     spaceCount: 0
-    wordCount: 1
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -4987,9 +4981,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224268879321769482, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -5211,14 +5213,6 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5280,7 +5274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &380762804
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5602,7 +5596,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &388801230
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5779,13 +5773,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 388801233}
-    characterCount: 37
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 7
-    wordCount: 8
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -5818,9 +5812,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224268879321769482, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -6052,14 +6054,6 @@ PrefabInstance:
       propertyPath: m_textInfo.lineCount
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6125,7 +6119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &441578871
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6605,7 +6599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &564251439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7085,7 +7079,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &607476321
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7195,13 +7189,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 607476322}
-    characterCount: 15
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -7405,7 +7399,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &633509275
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7554,9 +7548,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224268879321769482, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -7778,14 +7780,6 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -7845,7 +7839,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &645334380
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8005,7 +7999,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &663652403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8095,13 +8089,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 663652403}
-    characterCount: 17
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 2
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -8166,7 +8160,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &664424131
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8276,13 +8270,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 664424132}
-    characterCount: 8
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -8635,9 +8629,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224268879321769482, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -8859,14 +8861,6 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -8982,7 +8976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &735635155
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9092,13 +9086,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 735635156}
-    characterCount: 20
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -9131,6 +9125,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -9365,14 +9367,6 @@ PrefabInstance:
       propertyPath: m_textInfo.lineCount
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -9595,7 +9589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &785676938
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9705,13 +9699,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 785676939}
-    characterCount: 12
+    characterCount: 0
     spriteCount: 0
     spaceCount: 0
-    wordCount: 1
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -9822,7 +9816,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &787581202
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9932,13 +9926,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 787581203}
-    characterCount: 15
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -9971,6 +9965,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -10195,14 +10197,6 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -10362,6 +10356,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -10595,14 +10597,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.lineCount
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -11069,7 +11063,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &911181747
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11179,13 +11173,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 911181748}
-    characterCount: 11
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -11285,6 +11279,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -11509,14 +11511,6 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -11727,6 +11721,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -11945,14 +11947,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.wordCount
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -12185,7 +12179,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1000607127
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12295,13 +12289,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1000607128}
-    characterCount: 5
+    characterCount: 0
     spriteCount: 0
     spaceCount: 0
-    wordCount: 1
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -12507,7 +12501,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1028253807
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12683,13 +12677,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1028253810}
-    characterCount: 17
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -12893,7 +12887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1074053560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13371,7 +13365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1139769373
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13481,13 +13475,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1139769374}
-    characterCount: 10
+    characterCount: 0
     spriteCount: 0
     spaceCount: 0
-    wordCount: 1
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -13548,6 +13542,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -13585,7 +13587,7 @@ PrefabInstance:
     - target: {fileID: 224268879321769482, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224268879321769482, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -13762,14 +13764,6 @@ PrefabInstance:
       propertyPath: m_textInfo.spaceCount
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -13795,7 +13789,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1166265747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14033,7 +14027,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1209620137
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14143,13 +14137,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1209620138}
-    characterCount: 7
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -14517,7 +14511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1255254930
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14627,13 +14621,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1255254931}
-    characterCount: 27
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -14744,7 +14738,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1277659458
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14854,13 +14848,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1277659459}
-    characterCount: 10
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -14906,7 +14900,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1296958535
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15016,13 +15010,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1296958536}
-    characterCount: 23
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -15453,7 +15447,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1316288413
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15564,13 +15558,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1316288414}
-    characterCount: 16
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -15603,6 +15597,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -15832,14 +15834,6 @@ PrefabInstance:
       propertyPath: m_textInfo.lineCount
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -15892,6 +15886,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -16120,14 +16122,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.lineCount
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -16569,9 +16563,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224268879321769482, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -16802,14 +16804,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.wordCount
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -17064,13 +17058,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -0.05176202, w: 0}
   m_textInfo:
     textComponent: {fileID: 1409290954}
-    characterCount: 30
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 5
-    wordCount: 6
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -17114,7 +17108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1431087865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17754,7 +17748,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1442451630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17844,13 +17838,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1442451630}
-    characterCount: 14
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -18402,7 +18396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1558301164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18722,7 +18716,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1581329830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18882,7 +18876,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1598879079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18972,13 +18966,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1598879079}
-    characterCount: 12
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -19042,7 +19036,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1603778947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19132,13 +19126,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1603778947}
-    characterCount: 12
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -20140,6 +20134,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -20369,14 +20371,6 @@ PrefabInstance:
       propertyPath: m_textInfo.lineCount
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -20430,6 +20424,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -20654,14 +20656,6 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -20717,7 +20711,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1708434178
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21438,7 +21432,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1786953491
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21918,7 +21912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1792316254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22319,7 +22313,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1832758062
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22631,6 +22625,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -22850,14 +22852,6 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -22932,7 +22926,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1936694263
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23045,13 +23039,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1936694264}
-    characterCount: 79
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 11
-    wordCount: 12
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 2
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -23322,7 +23316,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1950393205
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23488,7 +23482,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1985200839
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23598,13 +23592,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1985200840}
-    characterCount: 41
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 5
-    wordCount: 6
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -23865,9 +23859,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224268879321769482, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -24088,14 +24090,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.wordCount
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -24636,7 +24630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2069166248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24726,13 +24720,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2069166248}
-    characterCount: 10
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -24798,7 +24792,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2076406951
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24911,13 +24905,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2076406952}
-    characterCount: 87
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 8
-    wordCount: 10
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 2
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -25017,6 +25011,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -25160,14 +25162,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.wordCount
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -25323,13 +25317,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2116092568}
-    characterCount: 18
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 3
-    wordCount: 4
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -25373,7 +25367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2117867991
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25483,13 +25477,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2117867992}
-    characterCount: 49
+    characterCount: 0
     spriteCount: 0
-    spaceCount: 8
-    wordCount: 9
+    spaceCount: 0
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -25522,9 +25516,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224268879321769482, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -25746,14 +25748,6 @@ PrefabInstance:
       propertyPath: m_textInfo.wordCount
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -25812,6 +25806,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_Name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1987046681810526, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -25864,7 +25866,7 @@ PrefabInstance:
     - target: {fileID: 114911591472400092, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_text
-      value: <i>I've suffered so you don't have to</i>
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 114911591472400092, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
@@ -25901,6 +25903,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114911591472400092, guid: 17e71a5a340a76c42bd79533f8a1fbde,
+        type: 3}
+      propertyPath: m_textInfo.textComponent
+      value: 
+      objectReference: {fileID: 2145140565}
     - target: {fileID: 224014896359025140, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26037,14 +26044,6 @@ PrefabInstance:
       propertyPath: m_textInfo.spaceCount
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_Name
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528066832298684, guid: 17e71a5a340a76c42bd79533f8a1fbde, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 224522349391531012, guid: 17e71a5a340a76c42bd79533f8a1fbde,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -26080,5 +26079,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 255426f93134648988601a18e73f4978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Elements:
-  - {fileID: 112072305}
+  Elements: []
+--- !u!114 &2145140565 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114911591472400092, guid: 17e71a5a340a76c42bd79533f8a1fbde,
+    type: 3}
+  m_PrefabInstance: {fileID: 2145140562}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
