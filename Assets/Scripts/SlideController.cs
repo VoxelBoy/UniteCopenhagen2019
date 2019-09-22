@@ -24,7 +24,7 @@ public class SlideController : MonoBehaviour
 
 			var lastSlideIndex = slideIndex;
 			
-			slideIndex = Mathf.Clamp(value, 0, slides.Count - 1);
+			slideIndex = Mathf.Clamp(value, 0, Mathf.Max(0, slides.Count - 1));
 			PlayerPrefs.SetInt("SlideIndex", slideIndex);
 			ShowSlideAtIndex(slideIndex, slideIndex != lastSlideIndex);
 		}
@@ -60,6 +60,8 @@ public class SlideController : MonoBehaviour
 		var newSlides = activeScene.GetRootGameObjects().ToList().FindAll(x => int.TryParse(x.name, out _))
 							.ConvertAll(go => go.GetComponent<Slide>());
 		newSlides.Sort((x, y) => int.Parse(x.name).CompareTo(int.Parse(y.name)));
+
+		slides.RemoveAll(slide => slide == null);
 
 		if (slides.Count == newSlides.Count && slides.TrueForAll(slide => newSlides.Contains(slide)))
 		{
@@ -168,7 +170,6 @@ public class SlideController : MonoBehaviour
 	{
 		if (index < 0 || index >= slides.Count)
 		{
-			Debug.LogError("Slide index out of bounds: " + index);
 			return;
 		}
 
