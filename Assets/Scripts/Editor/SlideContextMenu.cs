@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using TMPro;
 using UnityEditor;
 
@@ -8,6 +9,8 @@ public class SlideContextMenu
     private static void GatherTextElements(MenuCommand menuCommand)
     {
         var slide = menuCommand.context as Slide;
-        slide.Elements = slide.GetComponentsInChildren<TextMeshProUGUI>().ToList().ConvertAll(x => x.gameObject);
+        var elements = slide.GetComponentsInChildren<TextMeshProUGUI>(true).ToList().ConvertAll(x => x.gameObject);
+        elements.RemoveAll(x => x.name.Equals("Title", StringComparison.InvariantCulture));
+        slide.Elements = elements;
     }
 }
