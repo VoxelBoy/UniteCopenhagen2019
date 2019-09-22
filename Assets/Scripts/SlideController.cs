@@ -12,14 +12,14 @@ public class SlideController : MonoBehaviour
 	[SerializeField]
 	private List<Slide> slides = new List<Slide>();
 
-	public int SlideIndex
+	private int SlideIndex
 	{
-		get { return slideIndex; }
+		get => slideIndex;
 		set
 		{
 			if (slides.Count == 0)
 			{
-				GatherSlidesInScene();
+				GatherSlides();
 			}
 
 			var lastSlideIndex = slideIndex;
@@ -33,9 +33,9 @@ public class SlideController : MonoBehaviour
 	[SerializeField]
 	private int elementIndex;
 
-	public int ElementIndex
+	private int ElementIndex
 	{
-		get { return elementIndex; }
+		get => elementIndex;
 		set
 		{
 			elementIndex = value;
@@ -47,8 +47,16 @@ public class SlideController : MonoBehaviour
 			}
 		}
 	}
-
-	private void GatherSlidesInScene()
+	
+#if UNITY_EDITOR
+	[UnityEditor.MenuItem("CONTEXT/SlideController/Gather Slides")]
+	private static void GatherSlidesMenuItem(UnityEditor.MenuCommand menuCommand)
+	{
+		(menuCommand.context as SlideController)?.GatherSlides();
+	}
+#endif
+	
+	private void GatherSlides()
 	{
 		var activeScene = SceneManager.GetActiveScene();
 		
@@ -59,29 +67,29 @@ public class SlideController : MonoBehaviour
 
 		var newSlides = activeScene.GetRootGameObjects().ToList().FindAll(x => int.TryParse(x.name, out _))
 							.ConvertAll(go => go.GetComponent<Slide>());
+		newSlides.RemoveAll(slide => slide == null);
 		newSlides.Sort((x, y) => int.Parse(x.name).CompareTo(int.Parse(y.name)));
 
 		slides.RemoveAll(slide => slide == null);
-
 		if (slides.Count == newSlides.Count && slides.TrueForAll(slide => newSlides.Contains(slide)))
 		{
 			return;
 		}
 
-		slides = newSlides;
-		
 		//Make sure there are no gaps in the slide numbers
 		int index = 1;
-		for (int i = 0; i < slides.Count; i++)
+		foreach (var slide in newSlides)
 		{
-			int slideNameInt = int.Parse(slides[i].name);
+			int slideNameInt = int.Parse(slide.name);
 			if (slideNameInt != index)
 			{
-				slides[i].name = index.ToString();
+				slide.name = index.ToString();
 			}
 
 			index++;
 		}
+		
+		slides = newSlides;
 
 		//Make sure Slide Index gets clamped
 		SlideIndex = slideIndex;
@@ -93,11 +101,11 @@ public class SlideController : MonoBehaviour
 		if (Application.isPlaying == false)
 		{
 			UnityEditor.SceneView.duringSceneGui += (sceneView) => OnGUI();
-			UnityEditor.EditorApplication.hierarchyChanged += GatherSlidesInScene;
+			UnityEditor.EditorApplication.hierarchyChanged += GatherSlides;
 		}
 		#endif
 		SlideIndex = PlayerPrefs.GetInt("SlideIndex", slideIndex);
-		GatherSlidesInScene();
+		GatherSlides();
 	}
 
 	private void OnGUI()
