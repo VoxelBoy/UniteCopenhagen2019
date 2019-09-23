@@ -9,8 +9,8 @@ The presentation slides can be viewed in the Unity project in this repository.
 ### Resources
 * [LWRP → Universal upgrade guide](https://docs.google.com/document/d/1Xd5bZa8pYZRHri-EnNkyhwrWEzSa15vtnpcg--xUCIs/edit)
 * [LWRP → Universal blog post](https://blogs.unity3d.com/2019/09/20/how-the-lightweight-render-pipeline-is-evolving/)
-* [UniversalRP documentation](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.0/manual/index.html)
-* [Feature comparison table](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.0/manual/universalrp-builtin-feature-comparison.html)
+* [UniversalRP documentation](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.1/manual/index.html)
+* [Feature comparison table](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.1/manual/universalrp-builtin-feature-comparison.html)
 * [LWRP Custom Renderers Example repository](https://github.com/Unity-Technologies/LWRP-CustomRendererExamples)
 * [SRP GitHub repository](https://github.com/Unity-Technologies/ScriptableRenderPipeline/)
 * [SRP batcher blog post](https://blogs.unity3d.com/2019/02/28/srp-batcher-speed-up-your-rendering/)
