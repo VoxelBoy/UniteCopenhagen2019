@@ -13,8 +13,6 @@
 	{
 		Tags { "RenderType"="Opaque" "Queue"="Geometry"}
 		LOD 200
-		Lighting Off
-		Fog{ Mode Off }
 
 		Pass
 		{
@@ -39,7 +37,6 @@
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
                 float4 texcoord : TEXCOORD0;
-                float4 texcoordLM : TEXCOORD1;
                 float4 color : COLOR;
             };
     

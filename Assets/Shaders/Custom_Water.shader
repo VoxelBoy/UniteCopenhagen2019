@@ -6,8 +6,8 @@
 		_WaveAmount("Wave Amount", Range(0.0, 2.0)) = 0.5
 		_InteriorColor ("Interior Color (RGBA)", Color) = (1.0,1.0,1.0,1.0)
 		_ShoreColor ("Shore Color (RGBA)", Color) = (0.5,0.5,0.5,1.0)
-
 	}
+	
 	SubShader {
 		Tags { "RenderType"="Opaque" "IgnoreProjector"="True" "Queue" = "Geometry+90"}
 		LOD 200
