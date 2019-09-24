@@ -11,22 +11,20 @@ Shader "Custom/Lit"
 		Tags
 		{
             "RenderType"="Opaque"
-            "IgnoreProjector"="True"
-            "Queue" = "Geometry"
+            "Queue"="Geometry"
 		}
-		
-		ZWrite On
 		
 		Pass
         {
+            Name "Main"
             Tags { "LightMode" = "ForwardBase" }
             
             CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            
             #include "UnityCG.cginc"
             #include "Custom.cginc"
+            
+            #pragma vertex vert
+            #pragma fragment frag
             
             #pragma multi_compile __ TogglePlanerUvs
     
@@ -35,9 +33,10 @@ Shader "Custom/Lit"
             v2f_common vert (appdata_common v)
             {
                 v2f_common o;
+                
                 o.pos = UnityObjectToClipPos(v.vertex);
                 o.normal = v.normal;
-    
+                
                 #ifdef TogglePlanerUvs
                 o.uv = mul(UNITY_MATRIX_M, v.vertex).xz * 0.3;
                 #else
@@ -49,7 +48,9 @@ Shader "Custom/Lit"
             
             fixed4 frag(v2f_common i) : COLOR
             {
-                return tex2D(_MainTex, i.uv) * CustomLighting(i.normal);
+                half4 lighting = CustomLighting(i.normal);
+			    half4 color = tex2D(_MainTex, i.uv);
+				return color * lighting;
             }
             ENDCG
         }

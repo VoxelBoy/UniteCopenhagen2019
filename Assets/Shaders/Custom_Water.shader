@@ -1,4 +1,5 @@
-﻿Shader "Custom/Water" {
+﻿Shader "Custom/Water"
+{
 	Properties
 	{
 		_MainTex("Main Texture", 2D) = "white" {}
@@ -14,12 +15,12 @@
 		Tags
 		{
             "RenderType"="Opaque"
-            "IgnoreProjector"="True"
             "Queue" = "Geometry+90"
 		}
 
 		Pass
 		{
+		    Name "Main"
 			Tags { "LightMode" = "ForwardBase" }
 
 			CGPROGRAM
@@ -29,18 +30,20 @@
             #pragma vertex vert
             #pragma fragment frag
 
-            uniform sampler2D _MainTex, _WaveTex;
             half4 _MainTex_ST, _WaveTex_ST, _ShoreColor, _InteriorColor;
             half _WaveSpeed, _WaveAmount;
+            
+            sampler2D _MainTex, _WaveTex;
 
             v2f_common vert(appdata_common v)
             {
                 v2f_common o;
-                half _timeOffset = frac(_Time[1] * _WaveSpeed);
+                
                 o.pos = UnityObjectToClipPos(v.vertex);
                 o.normal = v.normal;
-                //Assigning all vertex coord xy values into one fixed 4
-
+                o.uv = v.texcoord.xy;
+                o.color = v.color;
+                
                 half2 uvs = mul(UNITY_MATRIX_M, v.vertex).xz * 0.3;
 
                 half4 _vTexXYCord = fixed4(uvs.x, uvs.y, uvs.x, uvs.y);
@@ -53,21 +56,25 @@
                 //Assign the UVMain texCoord
                 o.uv = _UVCalc.xy;
                 //Performing offset of UVs in either + or - directions to one fixed4
+                half _timeOffset = frac(_Time[1] * _WaveSpeed);
                 o.uv2 = fixed4(_UVCalc.x + _timeOffset, _UVCalc.y + _timeOffset, _UVCalc.z - _timeOffset, _UVCalc.w - _timeOffset);
 
-                o.color = v.color;
                 return o;
             }
 
             fixed4 frag(v2f_common i) : COLOR
             {
+                half4 lighting = CustomLighting(i.normal);
+                
                 half distort = tex2D(_WaveTex, i.uv2.xy).r * tex2D(_WaveTex, i.uv2.zw).r;
                 distort *=  _WaveAmount;
-                half3 c = tex2D(_MainTex, (i.uv + distort)).rgb;
-                half3 MixColEdge = lerp(c.rgb, (c.rgb *_ShoreColor.rgb), i.color.rrr);
-                half3 MixColInterior = lerp(c.rgb, (c.rgb * _InteriorColor.rgb), i.color.ggg);
+                half3 color = tex2D(_MainTex, (i.uv + distort)).rgb;
+                
+                half3 MixColEdge = lerp(color.rgb, (color.rgb *_ShoreColor.rgb), i.color.rrr);
+                half3 MixColInterior = lerp(color.rgb, (color.rgb * _InteriorColor.rgb), i.color.ggg);
                 half3 finalColor = lerp(MixColEdge.rgb, MixColInterior.rgb, i.color.ggg);
-                return half4(finalColor, 1) * CustomLighting(i.normal);
+                
+                return half4(finalColor, 1) * lighting;
             }
 			ENDCG
 		}
