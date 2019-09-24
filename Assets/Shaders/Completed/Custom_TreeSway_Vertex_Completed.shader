@@ -25,7 +25,7 @@
             
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
-            #include "CustomLighting_URP.hlsl"
+            #include "Custom.hlsl"
             
             CBUFFER_START(UnityPerMaterial)
             half _Bend, _speed, _Brightness, _TimeOffset;
@@ -90,7 +90,7 @@
 		
 			CGPROGRAM
 			#include "UnityCG.cginc"
-			#include "../CustomLighting.cginc"
+			#include "../Custom.cginc"
 			#pragma vertex vert
 			#pragma fragment frag
 			#pragma fragmentoption ARB_precision_hint_fastest

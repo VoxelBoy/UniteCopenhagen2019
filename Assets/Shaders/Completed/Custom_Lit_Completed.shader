@@ -24,7 +24,7 @@ Shader "Custom/Completed/Lit"
             
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
-            #include "CustomLighting_URP.hlsl"
+            #include "Custom.hlsl"
             
             TEXTURE2D(_MainTex);
             SAMPLER(sampler_MainTex);
@@ -86,7 +86,7 @@ Shader "Custom/Completed/Lit"
             #pragma fragment frag
             
             #include "UnityCG.cginc"
-            #include "../CustomLighting.cginc"
+            #include "../Custom.cginc"
             #pragma multi_compile __ TogglePlanerUvs
     
             sampler2D _MainTex;

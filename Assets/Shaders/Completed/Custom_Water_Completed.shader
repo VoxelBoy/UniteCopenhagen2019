@@ -24,7 +24,7 @@
             
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
-            #include "CustomLighting_URP.hlsl"
+            #include "Custom.hlsl"
             
             CBUFFER_START(UnityPerMaterial)
             half4 _MainTex_ST, _WaveTex_ST, _ShoreColor, _InteriorColor;
@@ -108,7 +108,7 @@
 
 			CGPROGRAM
             #include "UnityCG.cginc"
-            #include "../CustomLighting.cginc"
+            #include "../Custom.cginc"
             
             #pragma vertex vert
             #pragma fragment frag
