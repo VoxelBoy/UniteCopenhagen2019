@@ -3,7 +3,7 @@ Shader "Custom/Completed/Lit"
 	Properties 
 	{
 		_MainTex ("Base (RGB)", 2D) = "white" {}
-		[Toggle(TogglePlanerUvs)] _PlanerUvs("PlanerUvs", Float) = 0
+		[Toggle(TogglePlanarUvs)] _PlanarUvs("PlanarUvs", Float) = 0
 	}
 	
 	SubShader
@@ -29,7 +29,7 @@ Shader "Custom/Completed/Lit"
             #pragma exclude_renderers d3d11_9x
             #pragma target 2.0
             
-            #pragma multi_compile __ TogglePlanerUvs
+            #pragma multi_compile __ TogglePlanarUvs
             
             #pragma vertex vert
             #pragma fragment frag
@@ -44,7 +44,7 @@ Shader "Custom/Completed/Lit"
                 o.pos = TransformObjectToHClip(v.vertex.xyz);
                 o.normal = v.normal;
     
-                #ifdef TogglePlanerUvs
+                #ifdef TogglePlanarUvs
                 o.uv = mul(UNITY_MATRIX_M, v.vertex).xz * 0.3;
                 #else
                 o.uv = v.texcoord.xy;

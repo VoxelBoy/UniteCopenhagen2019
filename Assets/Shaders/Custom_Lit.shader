@@ -3,7 +3,7 @@ Shader "Custom/Lit"
 	Properties 
 	{
 		_MainTex ("Base (RGB)", 2D) = "white" {}
-		[Toggle(TogglePlanerUvs)] _PlanarUvs("PlanerUvs", Float) = 0
+		[Toggle(TogglePlanarUvs)] _PlanarUvs("PlanarUvs", Float) = 0
 	}
 	
 	SubShader
@@ -26,7 +26,7 @@ Shader "Custom/Lit"
             #pragma vertex vert
             #pragma fragment frag
             
-            #pragma multi_compile __ TogglePlanerUvs
+            #pragma multi_compile __ TogglePlanarUvs
     
             sampler2D _MainTex;
     
@@ -37,7 +37,7 @@ Shader "Custom/Lit"
                 o.pos = UnityObjectToClipPos(v.vertex);
                 o.normal = v.normal;
                 
-                #ifdef TogglePlanerUvs
+                #ifdef TogglePlanarUvs
                 o.uv = mul(UNITY_MATRIX_M, v.vertex).xz * 0.3;
                 #else
                 o.uv = fixed2(v.texcoord.xy);

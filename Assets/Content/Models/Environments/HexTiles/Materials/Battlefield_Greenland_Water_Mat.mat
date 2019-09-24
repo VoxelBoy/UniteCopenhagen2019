@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Battlefield_Greenland_Water_Mat
+  m_Shader: {fileID: 4800000, guid: 240768716db24a04386fcac5adf4f2b9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ca6ef130120c647c8ae68e407e0af20e, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveTex:
+        m_Texture: {fileID: 2800000, guid: 47f398d455623f54f9afb4e0482ae156, type: 3}
+        m_Scale: {x: 0.25, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _WaveAmount: 0.6785713
+    - _WaveSpeed: 0.0125
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _InteriorColor: {r: 0.37662196, g: 0.5593455, b: 0.5955882, a: 1}
+    - _ShoreColor: {r: 0.17906575, g: 0.22783642, b: 0.33823532, a: 1}
