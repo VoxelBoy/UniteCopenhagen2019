@@ -52,11 +52,16 @@ public class SlideController : MonoBehaviour
 	[UnityEditor.MenuItem("CONTEXT/SlideController/Gather Slides")]
 	private static void GatherSlidesMenuItem(UnityEditor.MenuCommand menuCommand)
 	{
-		(menuCommand.context as SlideController)?.GatherSlides();
+		(menuCommand.context as SlideController)?.GatherSlides(true);
 	}
 #endif
-	
+
 	private void GatherSlides()
+	{
+		GatherSlides(false);
+	}
+	
+	private void GatherSlides(bool force)
 	{
 		var activeScene = SceneManager.GetActiveScene();
 		
@@ -71,7 +76,7 @@ public class SlideController : MonoBehaviour
 		newSlides.Sort((x, y) => int.Parse(x.name).CompareTo(int.Parse(y.name)));
 
 		slides.RemoveAll(slide => slide == null);
-		if (slides.Count == newSlides.Count && slides.TrueForAll(slide => newSlides.Contains(slide)))
+		if (force == false && slides.Count == newSlides.Count && slides.TrueForAll(slide => newSlides.Contains(slide)))
 		{
 			return;
 		}
