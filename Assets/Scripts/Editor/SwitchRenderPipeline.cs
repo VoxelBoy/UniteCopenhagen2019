@@ -3,7 +3,7 @@ using UnityEditor.ShortcutManagement;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class SwitchRenderPipeline
+public static class SwitchRenderPipeline
 {
     [MenuItem("Tools/Switch Render Pipeline")]
     [Shortcut("SwitchRenderPipeline", null, KeyCode.R, ShortcutModifiers.Alt | ShortcutModifiers.Shift)]
