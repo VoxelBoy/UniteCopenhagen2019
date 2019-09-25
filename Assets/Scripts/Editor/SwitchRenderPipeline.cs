@@ -1,12 +1,10 @@
 ﻿using UnityEditor;
-using UnityEditor.ShortcutManagement;
 using UnityEngine;
 using UnityEngine.Rendering;
 
 public static class SwitchRenderPipeline
 {
-    [MenuItem("Tools/Switch Render Pipeline")]
-    [Shortcut("SwitchRenderPipeline", null, KeyCode.R, ShortcutModifiers.Alt | ShortcutModifiers.Shift)]
+    [MenuItem("Tools/Switch Render Pipeline &#R")]
     private static void DoSwitchRenderPipeline()
     {
         var renderPipelineAsset = AssetDatabase.LoadAssetAtPath<RenderPipelineAsset>("Assets/UniversalRenderPipelineAsset.asset");

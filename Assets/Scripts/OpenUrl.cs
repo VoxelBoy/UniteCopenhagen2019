@@ -12,7 +12,7 @@ public class OpenUrl : MonoBehaviour
 		GetComponent<Button>().onClick.AddListener(OnButtonClicked);
 	}
 
-	public void OnButtonClicked()
+	private void OnButtonClicked()
 	{
 		Application.OpenURL(url);
 	}
