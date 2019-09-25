@@ -9,7 +9,7 @@ public static class SwitchRenderPipeline
     {
         var renderPipelineAsset = AssetDatabase.LoadAssetAtPath<RenderPipelineAsset>("Assets/UniversalRenderPipelineAsset.asset");
         GraphicsSettings.renderPipelineAsset = GraphicsSettings.renderPipelineAsset != null ? null : renderPipelineAsset;
-        var activeRenderPipeline = GraphicsSettings.renderPipelineAsset != null ? "URP" : "Built-in RP";
+        var activeRenderPipeline = GraphicsSettings.renderPipelineAsset != null ? "UniversalRP" : "Built-in RP";
         SceneView.lastActiveSceneView.ShowNotification(new GUIContent($"Switched to {activeRenderPipeline}"));
     }
 }
