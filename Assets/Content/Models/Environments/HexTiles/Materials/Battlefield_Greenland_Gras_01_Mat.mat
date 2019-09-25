@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Battlefield_Greenland_Gras_01_Mat
   m_Shader: {fileID: 4800000, guid: 163d9ae9a704b482096331e1d9ea7d56, type: 3}
-  m_ShaderKeywords: BOOLEAN_4787CA1F_ON PlanerUvs TogglePlanarUvs TogglePlanerUvs
-  m_LightmapFlags: 5
+  m_ShaderKeywords: TogglePlanarUvs _EMISSION
+  m_LightmapFlags: 6
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
